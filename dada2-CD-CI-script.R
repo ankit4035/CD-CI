@@ -1,5 +1,7 @@
 library(dada2)
 set.seed(100)
+### Download data files from https://drive.google.com/drive/folders/1ihRgMjM97CqYEJRXS8ESIXUT7SDook2w?usp=sharing  and extract #####
+
 
 #import filepath
 path <- "/data1/ankit/16s/cultured/run1" # CHANGE ME to the directory containing the fastq files after unzipping.
