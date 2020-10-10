@@ -144,9 +144,6 @@ saveRDS(object = ps, file = "ps.RDS")
 sort(sample_sums(ps))
 table(taxa_sums(ps))
 
-ls <- seq(0, 8500, by = 5000)
-hist(sample_sums(ps), freq = TRUE, ylab = "Frequency of samples")
-
 #removing ASVs with toal count less than 6
 ps1 <- prune_taxa(taxa_sums(ps) > 5, ps)
 ps1
